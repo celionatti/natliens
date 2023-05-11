@@ -8,15 +8,6 @@
     "watch": "encore dev --watch",
     "build": "encore production --progress"
   },
-  "devDependencies": {
-    "@popperjs/core": "^2.11.6",
-    "@symfony/webpack-encore": "^4.0.0",
-    "bootstrap": "^5.2.1",
-    "file-loader": "^6.2.0",
-    "sass": "^1.54.9",
-    "sass-loader": "^13.0.2",
-    "webpack-notifier": "^1.15.0"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/celionatti/natliens.git"
@@ -27,5 +18,13 @@
   "bugs": {
     "url": "https://github.com/celionatti/natliens/issues"
   },
-  "homepage": "https://github.com/celionatti/natliens#readme"
+  "homepage": "https://github.com/celionatti/natliens#readme",
+  "devDependencies": {
+    "@symfony/webpack-encore": "^4.3.0",
+    "bootstrap": "^5.3.0-alpha3",
+    "file-loader": "^6.2.0",
+    "sass": "^1.62.1",
+    "sass-loader": "^13.2.2",
+    "webpack-notifier": "^1.15.0"
+  }
 }
